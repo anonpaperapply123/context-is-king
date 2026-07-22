@@ -138,7 +138,7 @@ fig.update_layout(
                     "ring &nbsp;|&nbsp; nodes are arbitrary tokens, colored by imposed position &nbsp;|&nbsp; "
                     "drag to rotate, use the buttons to add/remove the wrap</sub>", x=0.5, font=dict(size=15)),
     scene=scene, margin=dict(l=0, r=0, t=70, b=40), width=1050, height=720, paper_bgcolor="white",
-    updatemenus=[dict(type="buttons", direction="right", x=0.5, xanchor="center", y=1.12, showactive=True,
+    updatemenus=[dict(type="buttons", direction="down", x=0.0, xanchor="left", y=0.98, yanchor="top", showactive=True,
                       buttons=[dict(label=f"{lab}   (closure {cond_traces[cond][1]:.2f}, dRSA {cond_traces[cond][2]:+.2f})",
                                     method="update", args=[{"visible": _vis(cond)}]) for cond, lab in PANELS])],
 )
