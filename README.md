@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Context Is King" width="360">
+</p>
+
 # Context Is King — reproducibility package
 
 Code and cached data to reproduce *"Context Is King: How In-Context Specification
