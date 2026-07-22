@@ -28,7 +28,7 @@ Self-contained HTML (open in any browser, no install; regenerate with the script
 |---|---|---|
 | **Shapes** | rotate the ring / cycle / tree of the same seven weekdays | `assets/shapes_3d.html` · `figures/build_interactive_shapes.py` |
 | **Query relocation** | one imposed tree read under many queries (8 shown) — a vector runs from the grand centroid to each query's tree; toggle **Trees / Vectors / Consensus** and **add/remove queries** in the legend, while local structure holds (relocation ≈ 97% of positional variance) | `assets/tree_queries_3d.html` · `figures/build_interactive_tree.py` |
-| **Structure from nothing** | 31 meaning-free tokens under a declared hierarchy (asked nothing structural) arrange into depth bands; **depth buttons grow the tree** (2→3→4), nodes labeled with the arbitrary tokens, colored by depth | `assets/arbtree_3d.html` · `figures/build_interactive_arbtree.py` |
+| **Structure from nothing** | 7 meaning-free tokens under a declared cyclic order snap into a ring — the single "wraps around" fact closes the line into a ring (closure 2.8→1.1, dRSA −0.10→+0.17); **button toggles plain list → wrap**, nodes labeled with the arbitrary tokens, colored by imposed position | `assets/rings_3d.html` · `figures/build_interactive_rings.py` |
 
 ## What's here
 
