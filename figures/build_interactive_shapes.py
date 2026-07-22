@@ -37,9 +37,9 @@ day_idx = {d: i for i, d in enumerate(days)}
 
 # (centroid key, title, mode, positions-for-ordering/coloring)
 PANELS = [
-    ("NAT_day",   "Natural (no rule) - a ring",   "ring", list(range(N))),
-    ("CYCLE_end", "Imposed cycle - a ring",       "ring", z["CYCLE_ipos"].tolist()),
-    ("TREE_end",  "Imposed tree - depth bands",   "tree", None),
+    ("NAT_day",   "Natural (no rule)",   "ring", list(range(N))),
+    ("CYCLE_end", "Imposed cycle",       "ring", z["CYCLE_ipos"].tolist()),
+    ("TREE_end",  "Imposed tree",        "tree", None),
 ]
 
 
