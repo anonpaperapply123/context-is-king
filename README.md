@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Context Is King" width="360">
+  <img src="assets/logo.png" alt="Context Is King" width="200">
 </p>
 
 # Context Is King — reproducibility package
